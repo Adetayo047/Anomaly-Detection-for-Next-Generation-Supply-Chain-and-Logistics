@@ -50,7 +50,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn tensorflow
 1. **Data Loading & Exploration**  
    ![Data Loading](images/data_loading.png)
 2. **Data Quality Assessment**  
-   ![Data Quality](images/data_quality.png)
+   ![Data Quality](images/data_qaulity.png)
 3. **Data Cleaning & Feature Engineering**  
 4. **Exploratory Data Analysis (EDA)**  
 5. **Feature Selection**  
