@@ -29,7 +29,6 @@ This project provides an end-to-end framework for detecting anomalies in large-s
 - 🎯 **Innovative Techniques:** Self-attention, contrastive learning, adversarial training  
 - 🏆 **Robust Evaluation:** ROC/PR curves, optimal thresholding, and detailed performance analysis
 
-![Highlights](images/highlights.png)
 
 ---
 
@@ -53,13 +52,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn tensorflow
 2. **Data Quality Assessment**  
    ![Data Quality](images/data_quality.png)
 3. **Data Cleaning & Feature Engineering**  
-   ![Feature Engineering](images/feature_engineering.png)
 4. **Exploratory Data Analysis (EDA)**  
-   ![EDA](images/eda.png)
 5. **Feature Selection**  
    ![Feature Selection](images/feature_selection.png)
-6. **Deep Learning Anomaly Detection**  
-   ![Deep Learning](images/deep_learning.png)
 
 ---
 
@@ -152,14 +147,11 @@ Implemented in the notebook:
 
 ### Example: Autoencoder Architecture for Anomaly Detection
 
-![Autoencoder Architecture for Anomaly Detection](./autoencoder-architecture.png)
+![Autoencoder Architecture for Anomaly Detection](images/attention_autoencoder.png)
 
 - **AttentionAutoencoder:** Self-attention layer focuses on critical features  
-  ![Attention Autoencoder Architecture](images/attention_architecture.png)
 - **DeepAutoencoder:** Deep, regularized autoencoder with batch normalization  
-  ![Deep Autoencoder Architecture](images/deep_autoencoder_architecture.png)
 - **EnsembleDetector:** Combines autoencoder and deep network branches  
-  ![Ensemble Detector Architecture](images/ensemble_architecture.png)
 
 ---
 
@@ -171,10 +163,8 @@ Implemented in the notebook:
   - 18.7% loss-making orders, 54.8% late deliveries, 86% missing zipcodes
   - Strong separation between normal and anomalous patterns
 
-![ROC Curves](images/roc_curves.png)
-![Precision-Recall Curves](images/pr_curves.png)
-![Score Distributions](images/score_distribution.png)
-![Training History](images/training_history.png)
+![Evaluation Metrics](images/metrics.png)
+
 
 ---
 
