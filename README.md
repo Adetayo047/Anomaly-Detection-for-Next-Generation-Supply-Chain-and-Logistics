@@ -61,7 +61,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn tensorflow
 ## Key Features & Innovations
 
 - **Attention-Enhanced Autoencoder:** Learns which features matter most for each transaction  
-  ![Attention Autoencoder](images/attention_autoencoder.png)
+  ![Attention Autoencoder](images/autoencoder-architecture.png)
 - **Contrastive Learning:** Separates normal/abnormal patterns in embedding space  
 - **Adversarial Training:** Robust to noise and data variations  
 - **Deep SVDD (One-Class):** Pure unsupervised anomaly detection  
@@ -147,7 +147,7 @@ Implemented in the notebook:
 
 ### Example: Autoencoder Architecture for Anomaly Detection
 
-![Autoencoder Architecture for Anomaly Detection](images/attention_autoencoder.png)
+![Autoencoder Architecture for Anomaly Detection](images/autoencoder-architecture.png)
 
 - **AttentionAutoencoder:** Self-attention layer focuses on critical features  
 - **DeepAutoencoder:** Deep, regularized autoencoder with batch normalization  
